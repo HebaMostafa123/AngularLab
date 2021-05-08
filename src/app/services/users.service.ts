@@ -6,7 +6,7 @@ import { User } from '../models/user';
   providedIn: 'root'
 })
 export class UsersService {
-readonly baseURL:string = "https://git.heroku.com/angularuserdemo.git/users"
+readonly baseURL:string = "https://git.heroku.com/angularlab.git/users"
   constructor(private myClient:HttpClient) {}
   isUpdated: boolean = false;
    getUsers()
