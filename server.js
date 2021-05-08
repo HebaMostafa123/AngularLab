@@ -10,8 +10,8 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname + "/dist/lab02/index.html"));
 });
 
-app.listen(process.env.PORT || 8080, (err) => {
-  if (!err) return console.log("server runging on port 8080");
+app.listen(process.env.PORT || 3002, (err) => {
+  if (!err) return console.log("server runging on port 3002");
   console.log(err);
 });
 
